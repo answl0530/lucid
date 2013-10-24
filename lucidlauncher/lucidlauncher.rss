@@ -1,0 +1,28 @@
+
+#include <ecom/RegistryInfo.rh>
+#include <screensaverpluginintdef.hrh>
+
+#include "lucidlauncher.hrh"
+
+RESOURCE REGISTRY_INFO theInfo
+{
+  dll_uid = LUCIDLAUNCHER_UID3; // unique dll UID
+  interfaces =
+  {
+     INTERFACE_INFO
+     {
+        interface_uid = KCScreensaverPluginInterfaceDefinitionUid;
+        implementations =
+        {
+           IMPLEMENTATION_INFO
+           {
+              implementation_uid = LUCIDLAUNCHER_UID3; // unique dll UID
+              version_no = 1;
+              display_name = "lucidlauncher";
+              default_data = "";
+              opaque_data  = "";
+           }
+        };
+      }
+  };
+}

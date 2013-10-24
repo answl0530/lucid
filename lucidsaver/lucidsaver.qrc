@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/bituhnu.png</file>
+        <file>images/raster4.png</file>
+    </qresource>
+</RCC>
