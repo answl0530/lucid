@@ -1,8 +1,6 @@
 Lucid Qt Screensaver 
 ====================
 
-http://projects.forum.nokia.com/lucid
-
 A simple screensaver project for Qt on Symbian. The screensaver is designed 
 for Symbian^3 AMOLED devices, which allow the continuous displaying of an 
 image with very low power consumption.
@@ -30,6 +28,8 @@ a Symbian^1 target.
 The screensaver background graphic is a photo by Jarno Heikkinen, available 
 under Creative Commons Attribution licence. It has been further dithered to an 
 8 color palette.  <http://www.flickr.com/photos/jarnoheikkinen/5194626959/>
+
+This project is hosted in GitHub: https://github.com/nokia-developer/lucid
 
 
 PREREQUISITES
